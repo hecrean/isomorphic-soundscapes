@@ -1,1 +1,1 @@
-declare module "glslify";
+declare module 'glslify'
