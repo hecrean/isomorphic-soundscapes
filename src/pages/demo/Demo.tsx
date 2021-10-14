@@ -17,27 +17,22 @@ import {
 // Deai - R3F
 import {
     softShadows,
-    MeshWobbleMaterial,
     OrbitControls,
-    PositionalAudio,
     Html,
 } from '@react-three/drei'
 // React Spring
-import { useSpring, animated, AnimatedComponent } from '@react-spring/three'
+import { animated } from '@react-spring/three'
 // three
 import {
     RedFormat,
     LuminanceFormat,
     DataTexture,
-    BufferGeometry,
     Mesh,
-    SphereBufferGeometry,
     ShaderMaterial,
     IUniform,
     Vector2,
     Audio,
     AudioAnalyser,
-    AudioContext,
     AudioListener,
     AudioLoader,
 } from 'three'
